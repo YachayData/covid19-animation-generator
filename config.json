@@ -1069,6 +1069,19 @@
 				}
 			]
 		},
+		"google": {
+			"url": "https://raw.githubusercontent.com/YachayData/covid19-animation-generator/master/data/multiTimeline.csv",
+			"nameColumn": "fecha",
+			"preProcessor": "sum",
+			"series":
+			[
+				{
+					"name": "chile",
+					"code": "Chile",
+					"color": "#FF0005"
+				}
+			]
+		},
 		"chile-comunas": {
 			"url": "https://raw.githubusercontent.com/jorgeperezrojas/covid19-data/master/csv/confirmados_comunas_interpolado.csv",
 			"nameColumn": "comuna",
